@@ -49,10 +49,12 @@ The model was evaluated using accuracy, precision, recall, and F1-score for each
 ## Results
 The final model achieved an accuracy of approximately 80% on the test set. Precision and recall were highest for the negative sentiment class, indicating strong ability to detect complaints or problems. The neutral class showed lower recall, reflecting the inherent difficulty in classifying more ambiguous sentiments.
 
-Sentiment	Precision	Recall	F1-Score
-Negative	0.82	0.94	0.88
-Neutral	0.67	0.50	0.57
-Positive	0.78	0.60	0.68
+| Sentiment | Precision | Recall | F1-Score |
+|-----------|-----------|--------|----------|
+| Negative  | 0.82      | 0.94   | 0.88     |
+| Neutral   | 0.67      | 0.50   | 0.57     |
+| Positive  | 0.78      | 0.60   | 0.68     |
+
 
 ## Future Work and Applications
 ### Model Improvements:
